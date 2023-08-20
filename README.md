@@ -54,6 +54,10 @@ The Random Forest model also demonstrated good performance, with an R2 Score of 
 
 ## Deployment
 In addition to model development and evaluation, we also focused on creating an interactive and user-friendly interface for our fuel consumption prediction model. To achieve this, we leveraged Streamlit, a powerful Python library for building web applications with minimal effort. Streamlit allowed us to transform our machine learning model into an intuitive and accessible web application.
+![Screenshot 2023-08-21 001204](https://github.com/Abhilash1781/Fuel-Prognosis/assets/72621930/80442e55-c742-4591-ab21-1d0c83b75a9b)
+![Screenshot 2023-08-21 001359](https://github.com/Abhilash1781/Fuel-Prognosis/assets/72621930/b519903b-b0ed-46f0-98f8-a7fd9203f9f3)
+
+
 
 
 
