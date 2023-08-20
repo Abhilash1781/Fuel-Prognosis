@@ -6,8 +6,8 @@ import base64
 
 
 # Load the trained model and scaled data
-loaded_model = pk.load(open("xgboost.sav","rb"))
-scaled_data = pk.load(open("scaled.sav","rb"))
+loaded_model = pk.load(open("XGBOOST.sav","rb"))
+scaled_data = pk.load(open("scale.sav","rb"))
 
 
 
