@@ -28,6 +28,37 @@ The dataset comprises technical details of car models released in 2022, with 945
 15) **Smog Rating** : The smog (Smoke + fog) rating of the vehicle.
 
 
+## Results
+Following models were used to predict fuel consumption:
+
+1) Linear Regression
+2) Decision Tree Regression
+3) Random Forest Regression
+4) XG Boost
+5) LightGBM
+
+Models were then compared using various performance metrics, such as:
+1) R2 Score
+2) MAE - Mean Absolute Error
+3) MSE - Mean Squared Error
+4) RMSE - Root Mean Squared Error
+
+
+![Performance metrics](https://github.com/Abhilash1781/Fuel-Prognosis/assets/72621930/f7bf6bda-a778-41c9-bb61-c60ccd6ace0d)
+
+
+Among the models considered, the XGBoost model exhibited the best performance, achieving an R2 Score of around 0.96. Additionally, XGBoost achieved the lowest values for both MAE and RMSE, with 0.43 and 0.27 respectively.
+
+
+The Random Forest model also demonstrated good performance, with an R2 Score of 0.952. It achived slightly higher values for both MAE and RMSE with 0.44 and 0.29 respectively.
+
+## Deployment
+In addition to model development and evaluation, we also focused on creating an interactive and user-friendly interface for our fuel consumption prediction model. To achieve this, we leveraged Streamlit, a powerful Python library for building web applications with minimal effort. Streamlit allowed us to transform our machine learning model into an intuitive and accessible web application.
+
+
+
+
+
 
 
 
